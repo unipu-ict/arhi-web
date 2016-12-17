@@ -1,0 +1,133 @@
+*{
+    margin: 0; 
+    padding: 0; 
+}
+body{ 
+    font: 12px/1.4 "Calibri",Helvetica,Arial,sans-serif;
+    page: main;
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+td.border_right{ 
+    padding: 6px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 1px solid #ccc; 
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+tr.noborder, td.noborder{
+    border: 0;
+}
+
+td.noborder_empty{
+    border: 0;
+    padding:5px;
+}
+
+.printing{
+    width:680px; 
+    margin-left:10px;
+}
+
+.print-name{
+    background-color: #e6e6e6;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-title-center{
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-top: 1px solid #e6e6e6;
+}
+
+.p-title-italic{
+    font-weight: bold;
+    font-style: italic;
+    color: #a9a9a9;
+}
+
+.p-italic{
+    font-style: italic;
+    color: #a9a9a9;
+    font-size: 10px;
+}
+
+.p-justified{
+    text-align: justify;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.bold, .p-bold{
+    font-weight: bold;
+}
+
+td.signature{ 
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #333;
+    text-align: left;
+    font-size: 12px;
+}
+
+tr.report:nth-child(even) {
+   background-color: #F5F5F5;
+}
+
+td.border_right_nobold{ 
+    padding: 6px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 1px solid #333; 
+    text-align: left;
+    font-size: 13px;
+}
+
+th.border_right{ 
+    background-color: #e6e6e6;
+    padding: 6px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 1px solid #333; 
+    text-align: left;
+    font-size: 13px;
+}
+
+td.border_right_nobold_grey{ 
+    padding: 6px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: 12px;
+}
+
+th.border_right_nobold_grey{ 
+    padding: 6px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 1px solid #ccc;
+    background-color: #e6e6e6;
+    text-align: left;
+    font-size: 12px;
+}
+
+.page {  
+    margin-left:10px;
+    width: 21cm;
+    height: 29.7cm; 
+}
+
+@media print {
+   thead {display: table-header-group;}
+}
